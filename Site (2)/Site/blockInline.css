@@ -1,0 +1,85 @@
+/* blockInline.css */
+
+head {color: #F08D2C;
+    font-family: 'Monotype corsiva', sans-serif;
+    
+    
+
+}
+body { 
+    header h1 {color: #f87c00;
+        text-align: center;}
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: 24px;
+
+
+    background-image: url('Imagens/bgi2.jpg');
+
+    header button { 
+        align-self: center;
+        text-align: center;
+        background-color: #f87c00; 
+        color:white;
+        padding: 0.8em 0.8em;
+
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+
+        border-style: none;
+        border-radius: 0.50em;
+       }   
+
+       /* section com id '#pratos' */
+#pratos { 
+    text-align: center;
+    margin-top: 30px;
+    border-top: solid 1px #F08D2C;
+    padding-top: 1.5em;        
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+
+.prato { 
+    width: 50%; 
+    margin-bottom: 1em;
+}
+
+.prato img { max-width: 100%; }
+
+.prato h3 { 
+            color:#F08D2C; 
+            margin-bottom: 0.25em;
+            margin-top: 0.5em;
+    }
+.prato p { font-style: italic; margin-top: 0;}
+
+
+   /* header { 
+        background-color: ;
+        color:;
+
+        padding: 2px 20px;
+       }
+
+h1 {
+    background-image: url('');
+    background-repeat: no-repeat;
+    padding:0px 0px;
+    padding-left:0px;
+ } 
+ 
+ h2 { 
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+p { 
+    font-size: 1.5em;
+    margin-top: 2;
+  } 
+    background-image: url('Imagens/banner.png');
+  */
+}
