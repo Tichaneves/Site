@@ -1,29 +1,117 @@
 /* blockInline.css */
 
 head {color: #F08D2C;
-    font-family: 'Monotype corsiva', sans-serif;
-    
+    font-family: 'Monotype corsiva', sans-serif;   
 
 }
 body { 
+   
+
+  
+    h1 {
+        background-image: url('Imagens/Logo.jpg');
+        background-position: left;
+        background-repeat: no-repeat;
+        padding:70px 40px;
+        padding-left:75px;
+        color: #f87c00;
+        text-align: right;
     font-family: "Gill Sans Extrabold", sans-serif;
-    font-size: 24px;
+    font-size: 80px;
+    border-color: #FFF1B4;
+    background-color: #FFF1B4;
+    
+    border-width: 3px;}
+  
 
+    h2 { color:#f87c00;
+        text-align: center;
+        font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: 40px;
+    
 
-    background-image: url('https://s2-receitas.glbimg.com/RRNzsot_nFjnpu2vPR7Gb4rrqMY=/0x0:1080x1246/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/B/y/f0HayqSLWnO7PYmTYBag/panda-arroz.jpg');
+    }
+    
+    h3{
+        text-align: center;
+        font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: 34px;
+    background-color: #FFF1B4;
+    border-color: #FFF1B4;
+    border-style: hidden;
+    width: inherit;
+    height: inherit;
+    border-width: 3px;
+    }
+    h4{
+        text-align: center;
+        font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: 26px;
+    background-color: #FFF1B4;
+    border-color: #FFF1B4;
+    border-style: hidden;
+    width: inherit;
+    height: inherit;
+    border-width: 3px;
+    }
+    h5{
+        text-align:center;
+        font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: 50px;
+    text-size-adjust: inherit;
+    
+    
+    }
+    
+
+    background-image: url('Imagens/bgi2.jpg');
 
     header button { 
-        background-color: #F08D2C;
+        align-self: center;
+        text-align: center;
+        background-color: #f87c00; 
         color:white;
         padding: 0.8em 0.8em;
 
         font-family: inherit;
         font-size: inherit;
-        font-weight: 500;
+        font-weight: inherit;
 
         border-style: none;
         border-radius: 0.50em;
        }   
+
+       /* section com id '#pratos' */
+#pratos { 
+    text-align: center;
+    margin-top: 30px;
+    border-top: solid 1px #F08D2C;
+    padding-top: 1.5em;        
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+
+.prato { 
+    width: 50%; 
+    margin-bottom: 1em;
+}
+
+.prato img { max-width: 100%; }
+
+.prato h3 { 
+            color:#F08D2C; 
+            margin-bottom: 0.25em;
+            margin-top: 0.5em;
+    }
+.prato p { font-style: italic; margin-top: 0;}
+
+        h5 { color: black;
+            font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: 24px;
+
+        }
    /* header { 
         background-color: ;
         color:;
@@ -46,5 +134,7 @@ h1 {
 p { 
     font-size: 1.5em;
     margin-top: 2;
-  }    */
+  } 
+    background-image: url('Imagens/banner.png');
+  */
 }
